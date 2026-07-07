@@ -31,7 +31,7 @@ Network-Intrusion-Detection-ML/
 │                                    # NSL-KDD dataset files (KDDTrain.csv, KDDTest.csv)
 │
 ├── notebooks/
-│   └── Network_Intrusion_Detection.ipynb     # Main analysis and modeling notebook
+│   └── NSL_KDD_Intrusion_Detection.ipynb     # Main analysis and modeling notebook
 │
 ├── output/  # Exported charts (EDA, ROC, confusion matrix)
 │
