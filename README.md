@@ -64,7 +64,7 @@ Place `KDDTrain.csv` and `KDDTest.csv` inside the `data/` folder.
 jupyter notebook
 ```
 
-Open `notebooks/Network_Intrusion_Detection.ipynb` and run all cells in order.
+Open `notebooks/NSL_KDD_Intrusion_Detection.ipynb` and run all cells in order.
 
 ## Required Libraries
 
