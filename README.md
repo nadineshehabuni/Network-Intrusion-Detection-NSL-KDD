@@ -28,13 +28,12 @@ Cynthia Koopman's Network-Intrusion-Detection repository: https://github.com/Cyn
 Network-Intrusion-Detection-ML/
 │
 ├── data/
-│   └── raw/                                  # NSL-KDD dataset files (KDDTrain.csv, KDDTest.csv)
+│                                    # NSL-KDD dataset files (KDDTrain.csv, KDDTest.csv)
 │
 ├── notebooks/
 │   └── Network_Intrusion_Detection.ipynb     # Main analysis and modeling notebook
 │
-├── images/
-│   └── plots/                                # Exported charts (EDA, ROC, confusion matrix)
+├── output/  # Exported charts (EDA, ROC, confusion matrix)
 │
 ├── requirements.txt
 └── README.md
@@ -43,9 +42,10 @@ Network-Intrusion-Detection-ML/
 ## How to Run
 
 **1. Clone the repository**
-
+ 
 ```bash
-cd Network-Intrusion-Detection-ML
+git clone https://github.com/nadineshehabuni/Network-Intrusion-Detection-NSL-KDD.git
+cd Network-Intrusion-Detection-NSL-KDD
 ```
 
 **2. Install dependencies**
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 **3. Add the dataset**
 
-Place `KDDTrain.csv` and `KDDTest.csv` inside the `data/raw/` folder.
+Place `KDDTrain.csv` and `KDDTest.csv` inside the `data/` folder.
 
 **4. Launch Jupyter Notebook**
 
